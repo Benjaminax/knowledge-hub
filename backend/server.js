@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 });
 
 // MongoDB connection
-const uri = "mongodb+srv://kojoben29:Ost0UIZdvRIEDMRJ@cluster0.7ajsk.mongodb.net/stem?retryWrites=true&w=majority&appName=Cluster0";
+const uri = process.env.MONGO_URI; // Use MONGO_URI from .env
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
