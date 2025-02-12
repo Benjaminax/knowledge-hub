@@ -13,7 +13,7 @@ const BookingContact = ({ darkMode }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('http://localhost:5000/bookings', {
+    const response = await fetch('https://knowledge-hub-hov0.onrender.com/bookings', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

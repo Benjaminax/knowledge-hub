@@ -26,7 +26,7 @@ const Testimonials = ({ darkMode }) => {
     const fetchTestimonials = async () => {
       setLoading(true);
       try {
-        const response = await fetch('http://localhost:5000/testimonials');
+        const response = await fetch('https://knowledge-hub-hov0.onrender.com/testimonials');
         if (!response.ok) throw new Error('Failed to fetch testimonials');
         const data = await response.json();
         setTestimonials(data);
