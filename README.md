@@ -131,10 +131,10 @@ knowledge-hub/
 
 ## Screenshots
 
-![Home](frontend/src/assets/screenshots/home.png)
-![Booking](frontend/src/assets/screenshots/booking.png)
-![Resources](frontend/src/assets/screenshots/resources.png)
-![Testimonials](frontend/src/assets/screenshots/testimonials.png)
+![Home](frontend/src/assets/screenshots/Screenshot%202026-05-12%20204409.png)
+![Booking](frontend/src/assets/screenshots/Screenshot%202026-05-12%20204424.png)
+![Resources](frontend/src/assets/screenshots/Screenshot%202026-05-12%20204439.png)
+![Testimonials](frontend/src/assets/screenshots/Screenshot%202026-05-12%20204453.png)
 
 ## Socials
 
